@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disk Space Monitor Setup</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center-align">Setup Disk Space Monitor</h1>
+      <form method="post">
+        <div class="input-field">
+          <input id="ip" name="ip" type="text" class="validate" required>
+          <label for="ip">IP Address</label>
+        </div>
+        <div class="input-field">
+          <input id="user" name="user" type="text" class="validate" required>
+          <label for="user">Username</label>
+        </div>
+        <div class="input-field">
+          <input id="password" name="password" type="password" class="validate" required>
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field">
+          <input id="url" name="url" type="text" class="validate" required>
+          <label for="url">URL to Curl</label>
+        </div>
+        <div class="center-align">
+          <button type="submit" class="btn waves-effect waves-light">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
