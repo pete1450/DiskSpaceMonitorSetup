@@ -16,7 +16,7 @@ def index():
         script_content = f"""#!/bin/bash
 
 # Get the disk usage of a specified mount
-disk_usage=$(df -h | grep '/dev/sdb1' | awk '{{print $5}}' | sed 's/%//')
+disk_usage=$(df -h | grep '/dev/sda1' | awk '{{print $5}}' | sed 's/%//')
 
 # Check if the disk usage is below 90%
 if [ "$disk_usage" -lt 90 ]; then
