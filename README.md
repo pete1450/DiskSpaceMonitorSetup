@@ -22,7 +22,7 @@ This project provides a Flask application that sets up a disk space monitoring s
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/disk-space-monitor-setup.git
+    git clone https://github.com/pete1450/DiskSpaceMonitorSetup.git
     cd disk-space-monitor-setup
     ```
 
@@ -47,7 +47,7 @@ This project provides a Flask application that sets up a disk space monitoring s
     python app.py
     ```
 
-2. Open your web browser and go to `http://127.0.0.1:5000/`.
+2. Open your web browser and go to `http://{serverip}:5000/`.
 
 3. Fill out the form with the following details:
     - IP Address of the remote server.
