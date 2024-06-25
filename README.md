@@ -38,7 +38,7 @@ This project provides a Flask application that sets up a disk space monitoring s
     ```bash
     pip install Flask sshpass
     ```
-4. Update app.py by replacing /dev/sdb1 with your disk mount and update the host at the bottom to your servers ip.
+4. Update app.py by replacing /dev/sda1 with your disk mount and update the host at the bottom to your servers ip.
 
 ## Usage
 
