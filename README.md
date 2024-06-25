@@ -69,4 +69,4 @@ The application will then set up the disk space monitoring script and cron job o
 
 ## Security Note
 
-For security reasons, avoid hardcoding sensitive information such as passwords in the source code. Consider using environment variables or other secure methods to handle sensitive data.
+Do not port forward this or expose it outside your home network.
