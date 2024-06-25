@@ -46,7 +46,7 @@ This project provides a Flask application that sets up a disk space monitoring s
 1. Run the Flask application:
 
     ```bash
-    python app.py
+    python3 app.py
     ```
     
 2. Open your web browser and go to `http://{serverip}:5000/`.
